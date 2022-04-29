@@ -4,7 +4,13 @@ trigger:
 pool:
   name: default
   vmImage: node1
-  demands: mvn
+
+- task: CmdLine@2
+  inputs:
+    script: |
+      echo Write your commands here
+      
+      echo Hello world
 
 
 
