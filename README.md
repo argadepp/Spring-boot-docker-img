@@ -17,7 +17,7 @@ Steps to create Jar file
 2. go to folder where pom.xml is present 
 3. execute mvn command "mvn clean install " 
 4. then Target folder will be created and .jar file is present over there 
-5. Build the docker file "docker build -t nameofimg"
+5. Build the docker file "docker build -t demo ."
 6. Run the container "docker run -d --rm -p 8081:8081 --name demoapp nameofimg"
 
 Post that you can check by brousing the URL http://publicip:8081/getusers
